@@ -10,6 +10,7 @@ body{
     text-align: center;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
     color: #680465;
+    font-weight: bolder;
   }
   p[id="description"]{
     font-style: italic;
