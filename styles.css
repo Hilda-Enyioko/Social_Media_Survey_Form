@@ -4,9 +4,7 @@ body{
     margin: auto;
     background: linear-gradient(#E0B0FF, #CF9FFF, #DA70D6, #BF40BF, #800080) no-repeat 0 0;
     background-size: cover;
-    position: relative;
-    min-height: auto;
-  
+    position: absolute;
   }
   h1[id="title"]{
     margin-top: 2em;
