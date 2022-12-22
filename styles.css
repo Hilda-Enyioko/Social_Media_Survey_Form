@@ -4,7 +4,8 @@ body{
     margin: auto;
     background: linear-gradient(#E0B0FF, #CF9FFF, #DA70D6, #BF40BF, #800080) no-repeat 0 0;
     background-size: cover;
-    position: relative;
+    position: absolute;
+    min-height: auto;
   
   }
   h1[id="title"]{
@@ -47,9 +48,6 @@ body{
   textarea{
     height: 3em;
   }
-  select{
-    
-  }
   .inline{
     width: unset;
   }
@@ -60,5 +58,6 @@ body{
     border: none;
     color: white;
     font-size: 20px;
+    vertical-align: center;
   }
   
