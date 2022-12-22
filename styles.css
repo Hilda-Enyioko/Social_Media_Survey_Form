@@ -57,4 +57,13 @@ body{
     font-size: 20px;
     vertical-align: center;
   }
-  
+  .footer{
+    width: 100%;
+    background-color: 	#DA70D6;
+  }
+  p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+  }

@@ -8,41 +8,49 @@
 <body>
   <h1 id="title">Social Media Survey Form</h1>
   <p id="description">Thank you for taking the time to help us with our social media research</p>
-  <form id="survey-form" method="POST" action="https://docs.google.com/spreadsheets/d/1_yu47PObv6ArCNkEq5Fqq-QupIaVa2EpBwnDjHqEfek/edit?usp=sharing">
-    <fieldset>
-      <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required/></label>
-      <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required /></label>
-      <label for="number" id="number-label">Age: <input id="number" placeholder="Age" type="number" min="13" max="40"/></label>
-    </fieldset>
-    <fieldset>
-      <label>What social media platforms do you use?
-        <label for="instagram"><input type="checkbox" id="instagram" name="platform" value="instagram" class="inline"/> Instagram</label>
-        <label for="twitter"><input type="checkbox" id="twitter" name="platform" value="twitter" class="inline"/> Twitter</label>
-        <label for="snapchat"><input type="checkbox" id="snapchat" name="platform" value="snapchat" class="inline"/> Snapchat</label>
-        <label for="tiktok"><input type="checkbox" id="tiktok" name="platform" value="tiktok" class="inline"/> TikTok</label>
-        <label for="tumblr"><input type="checkbox" id="tumblr" name="platform" value="tumblr" class="inline"/> Tumblr</label>
-        <label for="youtube"><input type="checkbox" id="youtube" name="platform" value="youtube" class="inline"/> YouTube</label>
-      </label>
-      <label> What do use social media for?
-       <select id="dropdown">
-         <option></option>
-         <option>Fun</option>
-         <option>Work</option>
-         <option>Interact with friends</option>
-         <option>Stay updated</option>
-       </select>
-      </label>
-    </fieldset>
-    <fieldset>
-      <label>What is your social media personality?
-       <label for="reserved"><input type="radio" name="personality" id="reserved" value="reserved" class="inline"/> Reserved</label>
-       <label for="vocal"><input type="radio" id="vocal" name="personality" value="vocal" class="inline"/> Vocal</label>
-      </label>
-    </fieldset>
-    <fieldset>
-      <label>What improvement would you like to see on you favorite social media platform? <textarea></textarea></label>
-    </fieldset>
-    <input type="submit" id="submit"/>
-  </form>
+  <main>
+    <form id="survey-form" method="POST" action="https://docs.google.com/spreadsheets/d/1_yu47PObv6ArCNkEq5Fqq-QupIaVa2EpBwnDjHqEfek/edit?usp=sharing">
+      <fieldset>
+        <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required/></label>
+        <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required /></label>
+        <label for="number" id="number-label">Age: <input id="number" placeholder="Age" type="number" min="13" max="40"/></label>
+      </fieldset>
+      <fieldset>
+        <label>What social media platforms do you use?
+          <label for="instagram"><input type="checkbox" id="instagram" name="platform" value="instagram" class="inline"/> Instagram</label>
+          <label for="twitter"><input type="checkbox" id="twitter" name="platform" value="twitter" class="inline"/> Twitter</label>
+          <label for="snapchat"><input type="checkbox" id="snapchat" name="platform" value="snapchat" class="inline"/> Snapchat</label>
+          <label for="tiktok"><input type="checkbox" id="tiktok" name="platform" value="tiktok" class="inline"/> TikTok</label>
+          <label for="tumblr"><input type="checkbox" id="tumblr" name="platform" value="tumblr" class="inline"/> Tumblr</label>
+          <label for="youtube"><input type="checkbox" id="youtube" name="platform" value="youtube" class="inline"/> YouTube</label>
+        </label>
+        <label> What do use social media for?
+          <select id="dropdown">
+            <option></option>
+            <option>Fun</option>
+            <option>Work</option>
+            <option>Interact with friends</option>
+            <option>Stay updated</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What is your social media personality?
+         <label for="reserved"><input type="radio" name="personality" id="reserved" value="reserved" class="inline"/> Reserved</label>
+         <label for="vocal"><input type="radio" id="vocal" name="personality" value="vocal" class="inline"/> Vocal</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What improvement would you like to see on you favorite social media platform? <textarea></textarea></label>
+      </fieldset>
+      <input type="submit" id="submit"/>
+    </form>
+  </main>
+  <footer>
+    <div class="footer">
+        <p>Created by <a href="https://www.linkedin.com/in/hilda-enyioko-651b06231/">Hilda Enyioko</a></p>
+        <p>Copyright 2022</p>
+    </div>
+  </footer>
 </body>
 </html>
