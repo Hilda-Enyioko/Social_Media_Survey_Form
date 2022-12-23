@@ -2,7 +2,7 @@ body{
     width: 100%;
     height: 100vh;
     margin: auto;
-    background-image: linear-gradient(#E0B0FF, #CF9FFF, #DA70D6, #BF40BF, #800080);
+    background-image: linear-gradient(#efb0ff, #ff9fff, #DA70D6, #BF40BF, #800080);
   }
   h1[id="title"]{
     margin-top: 2em;
